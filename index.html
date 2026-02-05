@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Ejemplo</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1e88e5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            background-color: #1e88e5;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #1565c0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: #666;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bienvenido 🚀</h1>
+        <p>Página de ejemplo en HTML</p>
+    </header>
+
+    <main>
+        <h2>¿Qué es esta página?</h2>
+        <p>
+            Esta es una página HTML de ejemplo que puedes usar para pruebas,
+            demos o subir directamente a GitHub Pages.
+        </p>
+
+        <h2>Acción de prueba</h2>
+        <p>Haz clic en el botón para ver JavaScript en acción:</p>
+
+        <button onclick="saludar()">Haz clic aquí</button>
+    </main>
+
+    <footer>
+        © 2026 - Mi Proyecto de Ejemplo
+    </footer>
+
+    <script>
+        function saludar() {
+            alert("¡Hola! 👋 Esto es JavaScript funcionando correctamente.");
+        }
+    </script>
+
+</body>
+</html>
